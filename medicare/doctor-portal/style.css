@@ -1,0 +1,177 @@
+.Medicare {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #000000;
+}
+
+.profile {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.div-heading h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  /* identical to box height */
+
+  /* Primary / Primary */
+
+  color: #00a0b0;
+}
+
+.tab-group {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 40px 0;
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  li a {
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    background: rgba($gray-light, 0.25);
+    color: $gray-light;
+    font-size: 20px;
+    float: left;
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s ease;
+    &:hover {
+      background: $main-dark;
+      color: $white;
+    }
+  }
+  .active a {
+    background: $main;
+    color: $white;
+  }
+}
+
+.tab-heading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.card-name {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+.card-age {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+.card-disease {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.white-bg-blue-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+
+  /* Primary / Primary */
+
+  color: #00a0b0;
+  background: #f3f1ff;
+  /* New Shadow */
+
+  box-shadow: 0px 4px 61px #a5c0cd;
+  border-radius: 4px;
+}
+
+.card-bg {
+  background: #eaeaea;
+  border-radius: 0px 20px 20px 20px;
+  -webkit-border-radius: 0px 20px 20px 20px;
+  -moz-border-radius: 0px 20px 20px 20px;
+  -ms-border-radius: 0px 20px 20px 20px;
+  -o-border-radius: 0px 20px 20px 20px;
+}
+
+ .card-top {
+  font-family: Slabo 27px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  background: linear-gradient(90deg, #00a0b0 0%, rgba(0, 160, 176, 0.75) 100%);
+  border-radius: 0px 20px 0px 0px;
+  -webkit-border-radius: 0px 20px 0px 0px;
+  -moz-border-radius: 0px 20px 0px 0px;
+  -ms-border-radius: 0px 20px 0px 0px;
+  -o-border-radius: 0px 20px 0px 0px;
+} 
+
+.blue-bg-white-text {
+ font-family: Roboto;
+ font-style: normal;
+ font-weight: bold;
+ font-size: 14px;
+ line-height: 16px;
+ /* display: flex;
+ align-items: center;
+ text-align: center; */
+ color: #FFFFFF;
+ /*Primary/Primary*/background: #00A0B0;
+ /*OurShadow*/box-shadow: 0px 4px 61px rgba(0, 160, 176, 0.4);
+ border-radius: 4px;
+ -webkit-border-radius: 4px;
+ -moz-border-radius: 4px;
+ -ms-border-radius: 4px;
+ -o-border-radius: 4px;
+}

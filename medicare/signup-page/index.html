@@ -119,11 +119,11 @@
     <div>
       <div id="main-left">
         <div id="main-left-text">
-          <h2>Sign in to </h2>
+          <h2>Sign Up to </h2>
           <h3>MediCare is simply</h3>
           <br>
-          <p>If you don't have an account</p>
-          <p>You can <a href="../signup-page/index.html" style="color: #00a0b0;">Register here!</a></p>
+          <p>If you already have an account</p>
+          <p>You can <a href="../login-page/index.html" style="color: #00a0b0;">Login  here!</a></p>
         </div>
         <!-- <img id="main-left-img" src="./images/Saly-14.svg" alt=""> -->
         <div id="main-left-img">
@@ -167,7 +167,14 @@
       <div class="nav-content main-right-content">
         <div id="patient" style="display: block;">
           <form action="/" method="post">
-            <h1>Sign In</h1>
+            <h1>Sign Up</h1>
+            <div>
+              <label>
+                <!-- Name<span class="req">*</span> -->
+              </label>
+              <input type="fullname" required autocomplete="off" class="field-wrap" placeholder="Enter your full name" req />
+            </div>
+
             <div>
               <label>
                 <!-- Email Address<span class="req">*</span> -->
@@ -177,12 +184,24 @@
 
             <div>
               <label>
+                <!-- contact Number<span class="req">*</span> -->
+              </label>
+              <input type="contact" required autocomplete="off" class="field-wrap" placeholder="Enter your contact number" req />
+            </div>
+
+            <div>
+              <label>
                 <!-- Password<span class="req">*</span> -->
               </label>
               <input type="password" required autocomplete="off" class="field-wrap" placeholder="Password" />
             </div>
 
-            <p class="forgot" style="text-align: right;"><a href="#" style="color: #b0b0b0;">Forgot Password?</a></p>
+            <div>
+              <label>
+                <!-- Confirm Password<span class="req">*</span> -->
+              </label>
+              <input type="cpassword" required autocomplete="off" class="field-wrap" placeholder="Confirm Password" />
+            </div>
 
             <button class="button button-block blue-bg-white-text">Log In</button>
 
@@ -192,7 +211,14 @@
 
         <div id="doctor" style="display: none;">
           <form action="/" method="post">
-            <h1>Sign In</h1>
+            <h1>Sign Up</h1>
+            <div>
+              <label>
+                <!-- Name<span class="req">*</span> -->
+              </label>
+              <input type="fullname" required autocomplete="off" class="field-wrap" placeholder="Enter your full name" req />
+            </div>
+
             <div>
               <label>
                 <!-- Email Address<span class="req">*</span> -->
@@ -202,12 +228,24 @@
 
             <div>
               <label>
+                <!-- contact Number<span class="req">*</span> -->
+              </label>
+              <input type="contact" required autocomplete="off" class="field-wrap" placeholder="Enter your contact number" req />
+            </div>
+
+            <div>
+              <label>
                 <!-- Password<span class="req">*</span> -->
               </label>
               <input type="password" required autocomplete="off" class="field-wrap" placeholder="Password" />
             </div>
 
-            <p class="forgot" style="text-align: right;"><a href="#" style="color: #b0b0b0;">Forgot Password?</a></p>
+            <div>
+              <label>
+                <!-- Confirm Password<span class="req">*</span> -->
+              </label>
+              <input type="cpassword" required autocomplete="off" class="field-wrap" placeholder="Confirm Password" />
+            </div>
 
             <button class="button button-block blue-bg-white-text">Log In</button>
 
